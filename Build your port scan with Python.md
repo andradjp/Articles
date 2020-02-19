@@ -24,7 +24,7 @@ The version of Python that was use: **3.8.1**
 
 Let's get started!
 
-##Main Class
+## Main Class
 
     import sys
     import errno
@@ -44,7 +44,7 @@ Let's get started!
 In this first part, we just import the necessary libraries and define the class constructor. It'll receive two parameters: 
 target IP and ports. If the user set a port list separeted per comma, we'll generate a list of integers with this port list.
 
-##Function for check ports
+## Function for check ports
 
     def check_port_socket_v4_tcp(self):
     
@@ -79,7 +79,7 @@ this we set a timeout for 3 seconds and finally we tested the port and save the 
 
 Lastly we verify the result, if the result is 0 then the port is **Open**, else is block for any other reasons.
 
-##Testing the script
+## Testing the script
 
     joaopaulo@Joaos-MacBook-Air scanner % python3 sample_port_scanner.py -t 54.207.20.104 -p 80,443,445
     --------------------------------
@@ -96,7 +96,7 @@ Lastly we verify the result, if the result is 0 then the port is **Open**, else 
 For test your script, open a CLI session and set 2 parameters: -t for define the target and -p (not required) to define
  the ports scanned. Below a example: **python3 sample_port_scanner.py -t 54.207.20.104 -p 80,443,445**
  
-##Complete Code
+## Complete Code
 
     # Import modules
     import socket
@@ -173,4 +173,4 @@ Web Site: www.jpandrade.info
 
 Download of the code on GitHub: <a href="https://github.com/andradjp/hacktools/blob/master/scanner/sample_port_scanner.py">GitHub</a>
 
-For any questions, send me a email <a href="contact@jpandrade.info">here</a>
+For any questions, send me a email <a href="mailto:contact@jpandrade.info">here</a>
